@@ -1,0 +1,19 @@
+body{width:94%; margin:0px 10px 10px 10px; background-color:rgb(200,200,200)}
+div, button, h6, h5, h4, h3, h2, h1, p, input, form, img, textbox{float:left;}
+div#content{width:100%;}
+div.linespace{width:100%; height:1px; border:0px; margin:0px; padding:0px;}
+div.horizontalGroup{width:20%; padding:1%; margin:1%; overflow:hidden; border-radius:5px;}
+
+div.verticalGroup{width:95%; margin:5px; padding:5px;}
+
+button {border:1px solid black; border-radius:5px; cursor:pointer; margin-top:5px; margin-bottom:5px; background-color:rgb(225,225,225);}
+button.course{font-size:14px;}
+button.export{font-size:12px; margin-left:10px;}
+button.database{font-size:10px; margin-left:20px;}
+button.table{font-size:12px;}
+
+tr.odd {background-color:white;}
+tr.even {background-color:rgb(200,200,200);}
+th {padding:5px;}
+td {padding:5px; background-color:transparent;}
+td:hover {background-color:green;}
